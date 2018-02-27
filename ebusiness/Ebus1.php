@@ -27,7 +27,22 @@
             </label>
             
             <br/>
+            
+            <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+                Cloud9 @ $200
+            </label>
+            
             <br/>
+            
+            <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail @ $400
+            </label>
+            
+            <br/>
+            <br/>
+            
             <label for=subtotal>
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>

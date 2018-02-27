@@ -16,6 +16,14 @@ session_start();
             
                 <form action="Ebus3.php" method="POST">
                     
+                        <label for="user_name">Name</label>
+                        
+                        <input type="text" id="user_name" placeholder="Your Name Here">
+                        
+                        <label for="email_address">Email</label>
+                        
+                        <input type="text" id="email_address" placeholder="Email Address">
+                        
                         <label for="user_pin">PIN</label>
                         
                         <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
