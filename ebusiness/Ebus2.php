@@ -12,21 +12,30 @@ session_start();
            <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
-            <h4>Please enter your payment details</h4>
+            <h2>Please enter your payment details</h2>
             
                 <form action="Ebus3.php" method="POST">
                     
-                        <label for="user_name">Name</label>
+                        <label for="user_name">Name:</label>
                         
-                        <input type="text" id="user_name" placeholder="Your Name Here">
+                        <input type="text" id="user_name" name="user_name" placeholder="Your Name Here">
                         
-                        <label for="email_address">Email</label>
+                        <br/>
+                        <br/>
                         
-                        <input type="text" id="email_address" placeholder="Email Address">
+                        <label for="email_address">Email:</label>
                         
-                        <label for="user_pin">PIN</label>
+                        <input type="text" id="email_address" name="email_address" placeholder="Email Address">
+                        
+                        <br/>
+                        <br/>
+                        
+                        <label for="user_pin">PIN:</label>
                         
                         <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                        
+                        <br/>
+                        <br/>
                         
                     <button type="submit" id="btnPurchase" disabled>proceed with Purchase</button>
                     
